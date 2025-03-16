@@ -8,6 +8,12 @@ A Java-based client-server chat application allowing multiple users to communica
 - **Message Logging**: Stored in `chat_log.txt` with timestamps.
 - **Multi-Client Support**: Multiple users can chat via a central server.
 
+## Clone Repo
+```bash
+git clone https://github.com/Sayantan-B-dev/LANChatAppJava.git
+
+```
+
 ## Setup
 
 ### Directory Structure
@@ -48,7 +54,7 @@ java client.ChatClient && java client.ChatClient2
 ### Compile and run(faster)
 ```bash
 # Go to the server folder and run
-javac server/Server.java server/ServerThread.java && java server.Server
+javac Server.java ServerThread.java && java Server
 
 # Go to the client folder and run
 javac ChatClient.java && java ChatClient
@@ -73,4 +79,10 @@ Ensure the server's port is accessible.
 [2025-03-16 16:45:23] [Sayantan]: Hello!
 [2025-03-16 16:45:30] [Ram]: Hi there!
 ```
+
+### images
+<img src="./images/SayantanChat.png" alt="Chat Interface" width="400">
+<img src="./images/RamChat.png" alt="Chat Interface" width="400">
+<img src="./images/Chatlog.png" alt="Chat Interface" width="400">
+
 
