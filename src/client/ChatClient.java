@@ -102,6 +102,7 @@ public class ChatClient {
                 logMessage(formattedMessage); // Log the message
                 inputField.setText("");
             }
+        System.out.println(e);
         };
         sendButton.addActionListener(sendListener);
         inputField.addActionListener(sendListener);

@@ -62,6 +62,19 @@ javac ChatClient.java && java ChatClient
 javac ChatClient2.java && java ChatClient2
 ```
 
+### Start by one click
+```bash
+# Theres three .sh files..the runServer.sh needs to start first.
+# Alternatively you can use this code to start it at once.
+# Make sure to cd to the root directory of the project
+
+./runServer.sh & sleep 2 
+./runChat.sh &  
+./runChat2.sh &
+
+```
+
+
 ## Cross-Computer Communication
 Update `SERVER_ADDRESS` in `ChatClient.java` and `ChatClient2.java` with the server's IP.
 
@@ -84,5 +97,14 @@ Ensure the server's port is accessible.
 <img src="./images/SayantanChat.png" alt="Chat Interface" width="400">
 <img src="./images/RamChat.png" alt="Chat Interface" width="400">
 <img src="./images/Chatlog.png" alt="Chat Interface" width="400">
+
+
+
+### extra:
+```
+$ javac -d ../bin client/*.java server/*.java //for compiling all java file in bin
+jar cfe LanChatApp.jar server.Server server/*.class client/*.class //This command creates a JAR file
+
+```
 
 
