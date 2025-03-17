@@ -19,6 +19,8 @@ git clone https://github.com/Sayantan-B-dev/LANChatAppJava.git
 ### Directory Structure
 ```
 /LanChatApp
+    bin/
+    images/
     src/
         /server
             Server.java
@@ -26,7 +28,11 @@ git clone https://github.com/Sayantan-B-dev/LANChatAppJava.git
         /client
             ChatClient.java
             ChatClient2.java
+    .gitignore
     README.md
+    runChat.sh
+    runChat2.sh
+    runServer.sh
 ```
 
 ### Compilation
