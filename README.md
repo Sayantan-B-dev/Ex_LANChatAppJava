@@ -62,7 +62,7 @@ javac ChatClient.java && java ChatClient
 javac ChatClient2.java && java ChatClient2
 ```
 
-### Start by one click
+### OneClick Start
 ```bash
 # Theres three .sh files..the runServer.sh needs to start first.
 # Alternatively you can use this code to start it at once.
