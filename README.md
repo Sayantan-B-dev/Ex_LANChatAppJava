@@ -22,17 +22,24 @@ git clone https://github.com/Sayantan-B-dev/LANChatAppJava.git
     bin/
     images/
     src/
+        /bin
+            ChatClient.class
+            ChatClient2.class
+            Server.class
+            ServerThread.class
         /server
             Server.java
             ServerThread.java
         /client
             ChatClient.java
             ChatClient2.java
+        /sh
+            chat.sh
+            chat2.sh
+            server.sh
     .gitignore
     README.md
-    runChat.sh
-    runChat2.sh
-    runServer.sh
+    run.sh
 ```
 
 ### Compilation

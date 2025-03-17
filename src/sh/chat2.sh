@@ -1,3 +1,2 @@
-
-cd bin/
+cd ../bin/
 java ChatClient
