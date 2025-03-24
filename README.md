@@ -2,6 +2,55 @@
 
 LanChatApp is a simple LAN-based chat application built in Java. It allows multiple clients to connect to a server over a local network and exchange messages in real-time. The server runs on one computer, while clients with a graphical user interface (GUI) run on other computers, all connected via the same LAN (e.g., through a switch). Clients can choose their own usernames upon startup.
 
+# LanChatApp
+
+---
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Foreword](#foreword)
+3. [Acknowledgement](#acknowledgement)
+4. [Objective](#objective)
+
+---
+
+## Introduction
+LanChatApp is a Java-based local area network (LAN) chat application designed to facilitate real-time communication between multiple users on the same network. This project implements a client-server architecture where a central server manages message broadcasting, and clients, equipped with a graphical user interface (GUI), allow users to send and receive messages seamlessly. Developed as part of an academic assignment, LanChatApp demonstrates fundamental concepts in network programming, multithreading, and user interface design using Java’s standard libraries.
+
+The application is structured with a clear separation of source code (`src/`), compiled binaries (`bin/`), and a script (`run.sh`) for ease of deployment across multiple machines. It serves as a practical example of how networked applications can be built and deployed in a controlled LAN environment.
+
+---
+
+## Foreword
+This project represents an exploration into the practical application of computer networking principles and software development techniques. LanChatApp was conceived to bridge theoretical knowledge with hands-on implementation, providing a functional tool that showcases the power of Java in creating networked, interactive systems. The development process involved iterative design, testing, and refinement to ensure a user-friendly experience while meeting the technical requirements of a LAN-based chat system.
+
+As a submission for this assignment, LanChatApp aims to illustrate not only technical proficiency but also the ability to document and present a project in a structured manner. This foreword serves as a preface to the effort and intent behind the application, setting the stage for its purpose and execution.
+
+---
+
+## Acknowledgement
+The successful completion of LanChatApp would not have been possible without the support and resources provided by several key contributors:
+- **Course Instructor**: For providing guidance on network programming concepts and assignment requirements that shaped the project’s direction.
+- **Java Documentation and Community**: For offering comprehensive resources and examples that aided in implementing sockets, threads, and Swing GUI components.
+- **Peers and Testers**: For assisting in testing the application across multiple computers and providing valuable feedback on usability.
+- **xAI (Grok)**: For technical assistance in refining code, structuring the project, and enhancing documentation throughout the development process.
+
+This project stands as a testament to collaborative learning and the power of shared knowledge in software development.
+
+---
+
+## Objective
+The primary objectives of LanChatApp are as follows:
+- **Demonstrate Network Communication**: Implement a client-server model using TCP sockets to enable real-time messaging over a LAN.
+- **Enhance User Experience**: Develop a GUI for clients using Java Swing, allowing users to choose custom usernames and interact intuitively.
+- **Ensure Simplicity and Deployability**: Create a straightforward deployment process with a single script (`run.sh`) to compile and run the application on multiple machines.
+- **Apply Multithreading**: Utilize Java threads to handle concurrent client connections and message processing efficiently.
+- **Document Clearly**: Provide structured documentation suitable for an assignment, highlighting the project’s purpose, design, and execution.
+
+LanChatApp aims to meet these goals while serving as a practical learning tool for understanding networked application development.
+
+---
+
 ## Features
 - **Server**: Runs on a single machine, accepts client connections, and broadcasts messages.
 - **Clients**: Feature a Swing-based GUI with a chat display area, message input field, and send button.
