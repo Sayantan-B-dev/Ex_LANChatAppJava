@@ -64,9 +64,8 @@ LanChatApp/
 ├── images/
 │   └── diagram.png
 ├── src/
-│   ├── Server.java       # Server logic
-│   ├── ClientHandler.java # Handles connections
-│   └── Client.java       # Client GUI
+│   ├── chat_server.java
+│   └── chat_client.java
 ├── bin/
 └── run.sh
 ```
