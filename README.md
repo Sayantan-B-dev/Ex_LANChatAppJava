@@ -163,3 +163,7 @@ cd LanChatApp
 ## Architecture
 Below is a diagram showing how LanChatApp is deployed across three computers on a LAN:
 ![LanChatApp Deployment Diagram](images/diagram.png)
+
+
+
+## CREDIT
